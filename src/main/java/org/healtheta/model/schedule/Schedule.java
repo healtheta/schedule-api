@@ -44,7 +44,7 @@ public class Schedule {
 
     @OneToOne(fetch = FetchType.LAZY,
             cascade =  CascadeType.ALL)
-    @JoinColumn(name = "_identifier")
+    @JoinColumn(name = "_planningHorizon")
     private Period planningHorizon;
 
     @Column(name = "_comment")

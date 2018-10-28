@@ -16,7 +16,7 @@ public interface ScheduleRepo extends JpaRepository<Schedule, Long> {
     public Schedule findScheduleByIdentifier(Identifier identifier);
     public List<Schedule> findScheduleByServiceCategory(CodeableConcept serviceCategory);
     public List<Schedule> findScheduleByServiceTypeIn(List<CodeableConcept> serviceType);
-    public List<Schedule> findScheduleByServiceSpecialityIn(List<CodeableConcept> serviceSpeciality);
+    public List<Schedule> findScheduleBySpecialityIn(List<CodeableConcept> speciality);
     public List<Schedule> findScheduleByActorIn(List<Reference> actor);
 
 }
