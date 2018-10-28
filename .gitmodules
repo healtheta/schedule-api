@@ -1,0 +1,3 @@
+[submodule "src/main/java/org/healtheta/model/common"]
+	path = src/main/java/org/healtheta/model/common
+	url = https://github.com/healtheta/common.git
