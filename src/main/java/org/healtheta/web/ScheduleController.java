@@ -16,7 +16,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/schedule")
 public class ScheduleController {
     @Autowired
     ScheduleRepo scheduleRepo;
